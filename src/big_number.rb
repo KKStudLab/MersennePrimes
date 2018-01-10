@@ -17,7 +17,7 @@ class BigNumber
   # of 2 BigNumbers
   # Params:
   # @other should be an instance of BigNumber.class
-  # Retuns:
+  # Returns:
   # result an instance of BigNumber.class
 
   def *(other)
@@ -39,7 +39,7 @@ class BigNumber
   # of 2 BigNumbers
   # Params:
   # @other should be an instance of BigNumber.class
-  # Retuns:
+  # Returns:
   # result an instance of BigNumber.class
 
   # TODO: method works but need refactor

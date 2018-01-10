@@ -1,4 +1,4 @@
-require_relative '../src/big_number'
+require_relative '../src/number/big_number'
 require 'test/unit'
 
 class NumberTest < Test::Unit::TestCase
@@ -46,6 +46,18 @@ class NumberTest < Test::Unit::TestCase
     result = @big_number3 * @big_number3
 
     assert_equal('01', @big_number3.to_s)
+  end
+
+  def test_subtraction
+
+    result = @big_number2 - @big_number1
+
+    assert_equal('101100101', result.to_s)
+
+    result = @big_number4 - @big_number3
+
+    assert_equal('1', result.to_s)
+
   end
 
 end
